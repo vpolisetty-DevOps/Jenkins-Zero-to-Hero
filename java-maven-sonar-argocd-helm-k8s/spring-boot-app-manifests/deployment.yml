@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: abhishekf5/ultimate-cicd:replaceImageTag
+        image: nadeeshamedagama/ultimate-cicd:mac-v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
